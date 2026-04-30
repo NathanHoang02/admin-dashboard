@@ -6,43 +6,40 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Phase Dashboard</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="reset.css">
     </head>
     <body>
           <div class="container">
             <div class="header">
                 <div class="left">
-                    <ul>
-                        <li>
-                            <img src="images/plus-circle.svg" alt="Plus icon">
-                        </li>
-                        <li>
+                            <img src="images/plus-circle.svg" alt="Plus">
                             <img src="images/bibi.png" alt="Bibi">
-                        </li>
-                        <li>
                             <img src="images/jorb.png" alt="Jorb">
-                        </li>
-                        <li>
                             <img src="images/raccoonmi.png" alt="Raccoonmi">
-                        </li>
-                    </ul>
                 </div>
 
                 <div class="right">
-                    <img src="images/magnify.svg" alt="Magnify">
+                      <div class="search">
+                        <img src="images/magnify.svg" alt="Magnify">
+                        <form action="" method="get">
+                            <label for="searchBar"></label>
+                            <input
+                                type="text"
+                                placeholder="Search"
+                                id="searchBar"
+                            >
+                        </form>
+                    </div>
 
-                    <form action="" method="get">
-                        <label for="searchBar"></label>
-                        <input
-                            type="text"
-                            placeholder="Search"
-                            id="searchBar"
-                        >
-                    </form>
+                    <div class="alerts">
+                        <img src="images/message-badge.svg" alt="Messages">
+                        <img src="images/bell-badge.svg" alt="Bell">
+                    </div>
 
-                    <img src="images/message-badge.svg" alt="Message">
-                    <img src="images/bell-badge.svg" alt="Bell">
-                    <img src="images/tenma.png" alt="Tenma">
-                    <img src="images/chevron-down.svg" alt="Down">
+                    <div class="profile">
+                        <img src="images/tenma.png" alt="Tenma">
+                        <img src="images/chevron-down.svg" alt="Down">
+                    </div>
                 </div>
             </div>
 
@@ -52,65 +49,78 @@
                     <h1>Phase</h1>
                 </div>
 
-                <div class="links">
+                 <div class="links top">
                     <ul>
                         <li>
                             <a href="">
-                                <img src="images/home.svg" alt="Home">
+                                <img
+                                    src="images/home.svg" alt="Home">
                                 Home
                             </a>
                         </li>
                         <li>
                             <a href="">
-                                <img src="images/account.svg" alt="Account">
+                                <img
+                                    src="images/account.svg" alt ="Account">
                                 Profile
                             </a>
                         </li>
                         <li>
                             <a href="">
-                                <img src="images/message.svg" alt="Message">
+                                <img
+                                    src="images/message.svg" alt="Message">
                                 Messages
                             </a>
                         </li>
                         <li>
                             <a href="">
-                                <img src="images/calendar-text.svg" alt="Calendar">
+                                <img
+                                    src="images/calendar-text.svg"  alt="Calendar">
                                 Projects
                             </a>
                         </li>
                         <li>
                             <a href="">
-                                <img src="images/clipboard-text-multiple.svg" alt="Multiple clipboard">
-                                Goals
+                                <img
+                                    src="images/clipboard-text-multiple.svg" alt="Multiple clipboard">                                Goals
                             </a>
                         </li>
                         <li>
                             <a href="">
-                                <img src="images/order-bool-ascending-variant.svg" alt="Checklist">
-                                Settings
+                                <img
+                                    src="images/order-bool-ascending-variant.svg" alt="Checklist">
+                                Tasks
                             </a>
                         </li>
                         <li>
                             <a href="">
-                                <img src="images/clock.svg" alt="Clock">
+                                <img
+                                    src="images/clock.svg"nalt="Clock">
                                 History
                             </a>
                         </li>
-                        <li>
-                            <a href="">
-                                <img src="images/cog.svg" alt="Cog">
-                                Settings
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="images/help-circle.svg" alt="Help">
-                                Support
-                            </a>
-                        </li>
-                         <li>
+                    </ul>
+                </div>
+
+                <div class="links bottom">
+                    <li>
                         <a href="">
-                            <img src="images/shield-check.svg" alt="Shield">
+                            <img
+                                src="images/cog.svg" alt="Gear">
+                            Settings
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img
+                                src="images/help-circle.svg" alt="Question">
+                            Support
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img
+                                src="images/shield-check.svg" alt="Shield">
                             Privacy
                         </a>
                     </li>
@@ -127,7 +137,7 @@
                 <div class="heading">
                     <div class="left">
                         <img src="images/tenma.png" alt="Tenma">
-                        <p>Hi,<br>Tenma!</p>
+                        <p><strong>Hi,Tenma</strong></p>
                     </div>
 
                     <div class="right">
@@ -235,9 +245,9 @@
                             <p>Mari<br>Sell Coffee</p>
                         </div>
                         
-                        <div class="member">
-                            <img src="images/uruka.jpg" alt="Uruka">
-                            <p>Uruka<br>Promote Coffee</p>
+                          <div class="member">
+                            <img src="images/nasa.png" alt="Nasa">
+                            <p>Nasa<br>Make Coffee</p>
                         </div>
                     </div>
 

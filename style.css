@@ -1,0 +1,228 @@
+li 
+{
+    list-style: none;
+}
+
+button:hover 
+{
+    cursor: pointer;
+}
+
+button:active 
+{
+    transform: translateY(2px);
+}
+
+
+img[src$="png"] 
+{
+    width: 60px;
+}
+
+.bibi, .jorb, .raccoonmi, .tenma 
+{
+    border-radius: 50%;
+}
+
+.bibi 
+{
+    background-color: #f1d6df;
+}
+
+.jorb 
+{
+    background-color: #eac8bc;
+}
+
+.raccoonmi 
+{
+    background-color: #f0e8d1;
+}
+
+.tenma 
+{
+    background-color:  #f6e9da;
+}
+
+.container 
+{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 24fr;
+}
+
+.header img[src$="png"] 
+{
+    padding: 12px;
+}
+
+/* Selectors for the left side of the header start here. */
+
+.header .left 
+{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    
+    margin-left: 16px;
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+}
+
+.header .left img[src$="svg"]
+{
+    width: 35px;
+}
+
+/* Selectors for the right side of the header start here. */
+
+.header .right 
+{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    
+    margin-right: 16px;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+}
+
+.header .search,
+.header .alerts,
+.header .profile 
+{
+    display: flex;
+    gap: 8px;
+}
+
+.header .right input 
+{
+    padding-left: 8px;
+    
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 30px;
+}
+
+.header 
+{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+}
+
+/* ========================================================================== */
+/* Selectors for the sidebar start here.
+/* ========================================================================== */
+
+.sidebar 
+{
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+
+    border-right: 1px solid #d3d3d3;
+}
+
+/* ========================================================================== */
+/* Selectors for the main body of the page start here.
+/* ========================================================================== */
+
+.main 
+{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+
+    background-color: #f1f1f1;
+}
+
+.heading 
+{
+    margin-top: 16px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Selectors for the left side of the heading start here. */
+
+.heading .left 
+{
+    font-size: 1.5rem;
+
+    margin-left: 16px;
+
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.heading img[src$="png"] 
+{
+    width: 75px;
+}
+
+/* Selectors for the right side of the heading start here. */
+
+.heading .right 
+{
+    margin-right: 16px;
+
+    display: flex;
+    gap: 8px;
+}
+
+.heading button    
+{
+    padding: 4px 8px;
+
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #dbdbdb, -2px 2px 5px #dbdbdb;
+
+    display: flex;
+    gap: 4px;
+}
+
+.heading button:hover 
+{
+    background-color: #dbdbdb;
+}
+
+.pie 
+{
+    width: 300px;
+    height: 300px;
+
+    background-image: conic-gradient(
+        #F27281 70deg, 
+        #ABDFEB 0 235deg, 
+        #F7D88B 0
+    );
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center 
+{
+    width: 150px;
+    height: 150px;
+
+    background-color: white;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
