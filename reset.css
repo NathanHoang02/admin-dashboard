@@ -24,7 +24,7 @@ body
 
 img, picture, video, canvas, svg 
 {
-    max-width: 100%;
+    max-width: 45%;
 
     display: block;
 }
