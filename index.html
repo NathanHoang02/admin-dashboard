@@ -5,98 +5,127 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Phase Dashboard</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="reset.css">
+
     </head>
     <body>
-          <div class="container">
+        <div class="container">
             <div class="header">
-                <div class="left">
-                            <img src="images/plus-circle.svg" alt="Plus">
-                            <img src="images/bibi.png" alt="Bibi">
-                            <img src="images/jorb.png" alt="Jorb">
-                            <img src="images/raccoonmi.png" alt="Raccoonmi">
+                <div class="default">
+                    <div class="left">
+                        <img src="images/plus-circle.svg" alt="Plus">
+                        <a href="">
+                            <div class="bibi">
+                                <img src="images/bibi.png" alt="Bibi">
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="jorb">
+                                 <img src="images/jorb.png" alt="Jorb">
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="raccoonmi">
+                                <img src="images/raccoonmi.png" alt="Raccoonmi">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="right">
+                        <div class="search">
+                              <img src="images/magnify.svg" alt="Magnify">
+                            <form action="" method="get">
+                                <label for="searchBar"></label>
+                                <input
+                                    type="text"
+                                    placeholder="Search"
+                                    id="searchBar"
+                                >
+                            </form>
+                        </div>
+                        <div class="alerts">
+                            <img src="images/message-badge.svg" alt="Messages">
+                        <img src="images/bell-badge.svg" alt="Bell">
+                        </div>
+                        <div class="profile">
+                            <div class="bear">
+                                 <img src="images/tenma.png" alt="Tenma">
+                            </div>
+                                <img src="images/chevron-down.svg" alt="Down">
+                        </div>
+                    </div>
                 </div>
 
-                <div class="right">
-                      <div class="search">
-                        <img src="images/magnify.svg" alt="Magnify">
-                        <form action="" method="get">
-                            <label for="searchBar"></label>
-                            <input
-                                type="text"
-                                placeholder="Search"
-                                id="searchBar"
-                            >
-                        </form>
+                <div class="new">
+                    <img src="images/view-headline.svg" alt="Headline">
+                    <div class="title">
+                        <a href="">
+                            <img src="images/phase.png" alt="Phase">
+                            <h1>Phase</h1>
+                        </a>
                     </div>
-
-                    <div class="alerts">
-                        <img src="images/message-badge.svg" alt="Messages">
-                        <img src="images/bell-badge.svg" alt="Bell">
-                    </div>
-
-                    <div class="profile">
+                    <div class="bear">
                         <img src="images/tenma.png" alt="Tenma">
-                        <img src="images/chevron-down.svg" alt="Down">
                     </div>
                 </div>
             </div>
 
             <div class="sidebar">
                 <div class="title">
-                    <img src="images/phas.jpg" alt="Phase">
-                    <h1>Phase</h1>
+                    <a href="">
+                         <img src="images/phase.png" alt="Phase">
+                        <h1>Phase</h1>
+                    </a>
                 </div>
 
-                 <div class="links top">
+                <div class="links top">
                     <ul>
                         <li>
                             <a href="">
                                 <img
-                                    src="images/home.svg" alt="Home">
+                                     src="images/home.svg" alt="Home">
                                 Home
                             </a>
                         </li>
                         <li>
                             <a href="">
                                 <img
-                                    src="images/account.svg" alt ="Account">
+                                 src="images/account.svg" alt ="Account">
                                 Profile
                             </a>
                         </li>
                         <li>
                             <a href="">
                                 <img
-                                    src="images/message.svg" alt="Message">
+                                 src="images/message.svg" alt="Message">                                >
                                 Messages
                             </a>
                         </li>
                         <li>
                             <a href="">
                                 <img
-                                    src="images/calendar-text.svg"  alt="Calendar">
+                                    src="images/calendar-text.svg" alt="Calendar">
                                 Projects
                             </a>
                         </li>
                         <li>
                             <a href="">
                                 <img
-                                    src="images/clipboard-text-multiple.svg" alt="Multiple clipboard">                                Goals
+                                  src="images/clipboard-text-multiple.svg" alt="Multiple clipboard">
+                                Goals
                             </a>
                         </li>
                         <li>
                             <a href="">
                                 <img
-                                    src="images/order-bool-ascending-variant.svg" alt="Checklist">
+                                  src="images/order-bool-ascending-variant.svg" alt="Checklist">
                                 Tasks
                             </a>
                         </li>
                         <li>
                             <a href="">
                                 <img
-                                    src="images/clock.svg"nalt="Clock">
+                                    src="images/clock.svg" alt="Clock">
                                 History
                             </a>
                         </li>
@@ -108,7 +137,7 @@
                         <li>
                             <a href="">
                                 <img
-                                    src="images/cog.svg" alt="Gear">
+                                     src="images/cog.svg" alt="Gear">
                                 Settings
                             </a>
                         </li>
@@ -133,14 +162,16 @@
                     <ul>
                         <li>
                             <a href="">
-                                <img src="images/logout.svg" alt="Logout">
+                                 <img 
+                                    src="images/logout.svg" alt="Logout">
                                 Logout
                             </a>
                         </li>
                     </ul>
                 </div>
             </div>
-             <div class="main">
+
+            <div class="main">
                 <div class="heading">
                     <div class="left">
                         <img src="images/tenma.png" alt="Tenma">
@@ -149,116 +180,126 @@
 
                     <div class="right">
                         <button type="button">
-                            <img src="images/pencil.svg" alt="Pencil">
-                            Create
+                            <div class="content">
+                                 <img src="images/pencil.svg" alt="Pencil">
+                                Create
+                            </div>
                         </button>
                         <button type="button">
-                            <img src="images/share.svg" alt="Share">
-                            Share
+                            <div class="content">
+                                 <img src="images/share.svg" alt="Share">
+                                Share
+                            </div>
                         </button>
                         <button type="button">
-                            <img src="images/upload.svg" alt="Upload">
-                            Upload
+                            <div class="content">
+                                 <img src="images/upload.svg" alt="Upload">
+                                Upload
+                            </div>
                         </button>
                     </div>
                 </div>
 
                 <div class="your-projects">
                     <h3>Your Projects</h3>
-                    
+
                     <div class="projects">
                         <div class="project">
-                        <p><strong>Sell Coffee</strong></p>
+                            <p><strong>Sell Coffee</strong></p>
 
-                        <div class="content">
+                            <div class="content">
                             <p>Buy Phase Coffee. Buy Phase Coffee. Buy Phase Coffee. Buy Phase Coffee. Buy Phase Coffee. Buy Phase Coffee.
                                 Buy Phase Coffee. Buy Phase Coffee. Buy Phase Coffee. Buy Phase Coffee. Buy Phase Coffee. Buy Phase Coffee.
                             </p>
+                                <div class="icons">
+                                    <a href="">
+                                        <img
+                                             src="images/star-plus-outline.svg" alt="Star"> 
+                                    </a>
+                                    <a href="">
+                                        <img
+                                              src="images/eye-plus-outline.svg" alt="Eye"> 
+                                    </a>
+                                    <a href="">
+                                        <img
+                                               src="images/delete.svg" alt="Delete"> 
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
 
-                           <div class="icons">
+                        <div class="project">
+                             <p><strong>Sell More Coffee</strong></p>
+
+                            <div class="content">
+                            <p>Buy Phase Coffee. Buy Phase Coffee. Buy Phase Coffee. Buy Phase Coffee. Buy Phase Coffee. Buy Phase Coffee.
+                                Buy Phase Coffee. Buy Phase Coffee. Buy Phase Coffee. Buy Phase Coffee. Buy Phase Coffee. Buy Phase Coffee.
+                                </p>
+                                <div class="icons">
                                     <a href="">
                                         <img
-                                            src="images/star-plus-outline.svg" alt="Star">                                    </a>
+                                            src="images/star-plus-outline.svg" alt="Star">                           
+                                    </a>
                                     <a href="">
                                         <img
-                                            src="images/eye-plus-outline.svg" alt="Eye">                                    </a>
+                                            src="images/eye-plus-outline.svg" alt="Eye">   
+                                    </a>
                                     <a href="">
                                         <img
                                             src="images/delete.svg" alt="Delete">  
                                     </a>
                                 </div>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="project">
-                        <p><strong>Sell More Coffee</strong></p>
-
-                        <div class="content">
-                            <p>Buy Phase Coffee. Buy Phase Coffee. Buy Phase Coffee. Buy Phase Coffee. Buy Phase Coffee. Buy Phase Coffee.
-                                Buy Phase Coffee. Buy Phase Coffee. Buy Phase Coffee. Buy Phase Coffee. Buy Phase Coffee. Buy Phase Coffee.
-                            </p>
-
-                            <div class="icons">
-                                     <a href="">
-                                        <img
-                                            src="images/star-plus-outline.svg" alt="Star">                                    </a>
-                                    <a href="">
-                                        <img
-                                            src="images/eye-plus-outline.svg" alt="Eye">                                    </a>
-                                    <a href="">
-                                        <img
-                                            src="images/delete.svg" alt="Delete">  
-                                    </a>
-                                </div>
-                        </div>
-                    </div>
-
-                    <div class="project">
+                        <div class="project">
                         <p><strong>Sell Even More Coffee</strong></p>
 
                         <div class="content">
                             <p>Buy Phase Coffee. Buy Phase Coffee. Buy Phase Coffee. Buy Phase Coffee. Buy Phase Coffee. Buy Phase Coffee.
                                 Buy Phase Coffee. Buy Phase Coffee. Buy Phase Coffee. Buy Phase Coffee. Buy Phase Coffee. Buy Phase Coffee.
-                            </p>
-
-                             <div class="icons">
-                                     <a href="">
-                                        <img
-                                            src="images/star-plus-outline.svg" alt="Star">                                    </a>
+                                </p>
+                                <div class="icons">
                                     <a href="">
                                         <img
-                                            src="images/eye-plus-outline.svg" alt="Eye">                                    </a>
+                                            src="images/star-plus-outline.svg" alt="Star">                                    </a>
+                                    </a>
+                                    <a href="">
+                                        <img
+                                             src="images/eye-plus-outline.svg" alt="Eye">  
+                                    </a>
                                     <a href="">
                                         <img
                                             src="images/delete.svg" alt="Delete">  
                                     </a>
                                 </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="data">
-                    <h3>Coffee Sales Data</h3>
+                <div class="grid-container">
+                    <div class="data">
+                        <h3>Coffee Sales Data</h3>
 
-                    <div class="graph">
-                        <img
-                            src="images/coffee.png"
-                            alt="Line graph of total monthly conversions"
-                        >
+                        <div class="graph">
+                            <img
+                                 src="images/coffee.png"
+                                alt="PHASE COFFEE"
+                            >
+                        </div>
                     </div>
-                </div>
 
-                <div class="top-performance">
-                    <h3>Top Performance</h3>
+                    <div class="top-performance">
+                        <h3>Top Performance</h3>
 
                         <div class="content">
                             <div class="member one">
-                                <img src="images/sakana.png" alt="Sakana">
+                                 <img src="images/sakana.png" alt="Sakana">
                                 <div class="title">
                                     <p>Sakana</p>
                                     <p><em>Make Coffee</em></p>
                                 </div>
-
                                 <div class="progress">
                                     <p>67%</p>
                                     <div class="bar">
@@ -273,7 +314,6 @@
                                     <p>Mari</p>
                                     <p><em>Sell Coffee</em></p>
                                 </div>
-
                                 <div class="progress">
                                     <p>13%</p>
                                     <div class="bar">
@@ -298,49 +338,49 @@
                         </div>
                     </div>
 
-                <div class="add left">
-                    <img src="images/plus-circle.svg" alt="Add icon">
-                    <p>Add<br>Goal</p>
-                </div>
+                    <div class="add left">
+                        <img src="images/plus-circle.svg" alt="Add icon">
+                        <p>Add<br>Goal</p>
+                    </div>
 
-                <div class="add right">
-                    <img src="images/plus-circle.svg" alt="Add icon">
-                    <p>Add<br>Task</p>
-                </div>
+                    <div class="add right">
+                         <img src="images/plus-circle.svg" alt="Add icon">
+                         <p>Add<br>Task</p>
+                    </div>
 
-                <div class="stats">
-                    <h3>Stats</h3>
+                    <div class="stats">
+                        <h3>Stats</h3>
 
-                    <div class="content">
-                        <select name="kpi" id="kpi">
-                            <option value="traffic">
-                                Organic Traffic & Leads
-                            </option>
-                            <option value="revenue">
-                                Total Revenue
-                            </option>
-                            <option value="subscribers">
+                        <div class="content">
+                            <select name="kpi" id="kpi">
+                                <option value="traffic">
+                                    Organic Traffic
+                                </option>
+                                <option value="revenue">
+                                    Total Revenue
+                                </option>
+                               <option value="subscribers">
                                 New Subscribers
-                            </option>
-                        </select>
+                                </option>
+                            </select>
 
-                        <div class="graph">
-                            <div class="pie">
-                                <div class="center">
-                                    <img
-                                        src="images/arrow-up.svg"
-                                        alt="Up arrow icon"
-                                    >
-                                    <p>75%</p>
+                            <div class="graph">
+                                <div class="pie">
+                                    <div class="center">
+                                        <img
+                                            src="images/arrow-up.svg"
+                                            alt="Up arrow"
+                                        >
+                                        <p>75%</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                          <div class="legend">
+                            <div class="legend">
                                 <div class="red">
                                     <div class="title">
                                         <div class="color"></div>
-                                        <p>Youtube</p>
+                                         <p>Youtube</p>
                                     </div>
                                     <p>67%</p>
                                 </div>
@@ -360,6 +400,7 @@
                                     </div>
                                     <p>13%</p>
                                 </div>
+                            </div>
                         </div>
                     </div>
                 </div>
